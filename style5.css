@@ -1,0 +1,152 @@
+*{
+ box-sizing: border-box;   
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(21, 24, 63);
+}
+i{
+    position: relative;
+    margin:20px 0 0 20px;
+}
+.nav{
+   position: fixed;
+   background-color:black;
+   list-style-type: none;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+ .ca{
+    float: right;
+    padding: 20px;
+}
+.ca a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    justify-self: end;
+    display: block;
+    margin-top: 2em;
+    margin-left: 40px;
+    padding: 50px;
+   height: 40%;
+   width: 40%;
+   color: white;
+   font-size: 30px;
+  
+
+}
+.container #parrafo {
+    font-size: 20px;
+    font-family: 'Merryweather';
+    font-weight: 900;
+    color: white;
+    text-align: left;
+   
+   
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    border: 1px solid  none;
+    overflow:hidden ;
+    height: 200px;
+    width: 600px;
+    margin: 120px 0 30px 500px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.content:hover{
+    border:2px solid gray;
+    visibility: visible;
+}
+
+.content img{
+    display: relative;
+    height: 90px;
+    width: 150px;
+    float: left;
+    margin-top: 10px;
+    border: 1px solid gray;
+   
+}
+ .content .p2 {
+    float: left;
+    margin-right: 30px;
+    
+
+}
+ .titulo{
+    float: right;
+    justify-content: space-between;
+    
+
+}
+h1{
+    color: white;
+}
+p{
+    color:white;
+}
+.co-container h1{
+    float: right;
+    margin-right: 52%;
+    margin-top: 36%;
+    margin-bottom: 8%;
+    
+  
+}
+.sobre-mi{
+    display: grid;
+    float: right;
+    margin: 10% 2%  0 20%;
+    padding:20px;
+    background-color:none;
+    width: 42%;
+}
+.sobre-mi p{
+    line-height: 30px;
+    font-size: 23px;
+    color: rgb(192, 190, 190);
+}
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+    
+  
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
